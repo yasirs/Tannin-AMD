@@ -43,6 +43,3 @@ This directory contains the outputs of the comprehensive computational analysis 
 ### 8. `sc-analysis/` (Single-Cell Investigation)
 *   **`cell_type_enrichment_heatmap.png`**: Heatmap showing how PRG4 rescue affects RPE vs Fibroblast markers.
 *   **`prg4_receptor_bulk.csv`**: Expression changes of CD44, TLR2, PRG4 in the bulk data.
-
----
-*Organized by Gemini CLI Agent*
