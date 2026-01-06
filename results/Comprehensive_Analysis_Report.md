@@ -181,10 +181,10 @@ This report consolidates the comprehensive computational analysis of PRG4 (Lubri
 
 **Visualization**:
 
-![PRG4 Rescue Volcano Plot](file:///home/ysuhail/work/Tannin-AMD/results/bridge-results/Volcano_PRG4_Rescue.png)
+![PRG4 Rescue Volcano Plot](bridge-results/Volcano_PRG4_Rescue.png)
 *Figure 1: Volcano plot of PRG4 rescue signature (H2O2+PRG4 vs H2O2). Red points indicate FDR < 0.05.*
 
-![PCA of RPE Bulk RNA-seq](file:///home/ysuhail/work/Tannin-AMD/results/bridge-results/PCA_RPE_Bulk.png)
+![PCA of RPE Bulk RNA-seq](bridge-results/PCA_RPE_Bulk.png)
 *Figure 2: PCA of bulk RNA-seq samples showing clear separation by treatment condition.*
 
 ### 4.2 Virtual PRG4 Screen: Mechanism Discovery
@@ -216,7 +216,7 @@ This report consolidates the comprehensive computational analysis of PRG4 (Lubri
 
 **Visualization**:
 
-![PRG4 Rescue Virtual Screen Rankings](file:///home/ysuhail/work/Tannin-AMD/results/bridge-results/PRG4%20Rescue_rankings.png)
+![PRG4 Rescue Virtual Screen Rankings](bridge-results/PRG4%20Rescue_rankings.png)
 *Figure 3: Top 50 PRG4 mimetics from virtual screen of 11,258 gene knockdowns. DICER1, KEAP1, and UBE2M highlighted.*
 
 ### 4.3 Human Cohort Validation
@@ -249,7 +249,7 @@ This report consolidates the comprehensive computational analysis of PRG4 (Lubri
 
 **Visualization**:
 
-![GSE135092 PCA](file:///home/ysuhail/work/Tannin-AMD/results/cohort-GSE135092/gse135092_pca.pdf)
+![GSE135092 PCA](cohort-GSE135092/gse135092_pca.pdf)
 *Figure 4: PCA of GSE135092 cohort (537 samples) showing tissue-specific clustering and AMD separation.*
 
 **Note**: For best viewing in GitHub, convert PDFs to PNG format. PNG files render inline while PDFs require download.
@@ -322,7 +322,7 @@ This report consolidates the comprehensive computational analysis of PRG4 (Lubri
 
 **Visualization**:
 
-![PRG4 Rescue on DAR Genes](file:///home/ysuhail/work/Tannin-AMD/results/atac-integration/prg4_rescue_on_dars_boxplot.pdf)
+![PRG4 Rescue on DAR Genes](atac-integration/prg4_rescue_on_dars_boxplot.pdf)
 *Figure 7: Boxplot comparing PRG4 rescue effect for DAR-linked vs non-DAR genes (p=0.603, no significant difference).*
 
 ### 4.6 External Validation: Multi-Cohort Meta-Analysis
@@ -351,10 +351,10 @@ This report consolidates the comprehensive computational analysis of PRG4 (Lubri
 
 **Visualization**:
 
-![AMD Risk Gene Validation](file:///home/ysuhail/work/Tannin-AMD/results/external-validation/amd_rescue_scatter.png)
+![AMD Risk Gene Validation](external-validation/amd_rescue_scatter.png)
 *Figure 5: Scatter plot showing reversal of AMD signature by PRG4 for key risk genes (CFH, RPE65, MT-ND2).*
 
-![Serum Starvation Correlation](file:///home/ysuhail/work/Tannin-AMD/results/external-validation/serum_rescue_scatter.pdf)
+![Serum Starvation Correlation](external-validation/serum_rescue_scatter.pdf)
 *Figure 6: PRG4 rescue signature opposes serum starvation phenotype (r = -0.24), suggesting anti-atrophy effect.*
 
 ---
