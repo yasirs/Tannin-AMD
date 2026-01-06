@@ -252,6 +252,8 @@ This report consolidates the comprehensive computational analysis of PRG4 (Lubri
 ![GSE135092 PCA](file:///home/ysuhail/work/Tannin-AMD/results/cohort-GSE135092/gse135092_pca.pdf)
 *Figure 4: PCA of GSE135092 cohort (537 samples) showing tissue-specific clustering and AMD separation.*
 
+**Note**: For best viewing in GitHub, convert PDFs to PNG format. PNG files render inline while PDFs require download.
+
 #### 4.3.3 GSE129964 (21 samples, Serum Starvation Timecourse)
 
 **Model**: RPE cells under serum starvation (Days 0, 3, 6, 9)
