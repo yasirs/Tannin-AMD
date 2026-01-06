@@ -189,6 +189,15 @@ This report consolidates the comprehensive computational analysis of PRG4 (Lubri
 
 ### 4.2 Virtual PRG4 Screen: Mechanism Discovery
 
+**What is the Virtual Screen?**
+We correlated the PRG4 rescue signature (3,975 genes from bulk RNA-seq) with **K562 GWPS Perturb-seq data** (11,258 gene knockdowns). Each knockdown produces a transcriptomic profile; we identified which knockdowns produce profiles most similar to PRG4 treatment. These "mimetic" genes are candidates for PRG4's mechanism of action.
+
+**Dataset**: K562 Genome-Wide Perturb-seq (Replogle et al. 2022)
+- **Cell line**: K562 (human myelogenous leukemia)
+- **Perturbations**: 11,258 CRISPRi gene knockdowns
+- **Coverage**: 65.6% of PRG4 rescue signature (2,609/3,975 genes)
+- **Method**: Spearman correlation between bulk DEG log2FC and Perturb-seq Z-scores
+
 **Top 10 PRG4 Mimetics** (from 11,258 knockdowns):
 
 | Rank | Gene | Spearman ρ | Function | Mechanistic Insight |

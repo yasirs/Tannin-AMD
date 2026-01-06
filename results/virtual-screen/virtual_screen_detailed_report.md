@@ -133,6 +133,8 @@ To validate biological coherence of top hits:
 
 ## 4. Results
 
+**Reminder**: This virtual screen correlated the PRG4 rescue signature (3,975 genes from RPE bulk RNA-seq) with **K562 GWPS Perturb-seq data** (11,258 gene knockdowns). Genes whose knockdown produces similar transcriptomic changes to PRG4 treatment are "mimetics" - candidates for PRG4's mechanism of action.
+
 ### 4.1 Top 50 PRG4 Mimetics
 
 | Rank | Gene Symbol | Ensembl ID | Spearman ρ | Biological Function |
