@@ -1,0 +1,23 @@
+Loading bulk results...
+
+AMD Gene Behavior:
+Gene       | H2O2_FC    | Rescue_FC  | Category
+--------------------------------------------------
+CFH        | -0.236      | 0.779      | Complement
+C3         | -0.093      | 0.926      | Complement
+CFI        | nan      | nan      | Complement
+C2         | 1.013      | 0.466      | Complement
+CFB        | nan      | nan      | Complement
+CFD        | 0.395      | -0.266      | Complement
+ARMS2      | 0.103      | -0.418      | Oxidative/Mito
+HTRA1      | -0.094      | -0.176      | Oxidative/Mito
+MT-ND2     | -0.753      | 0.643      | Oxidative/Mito
+APOE       | 1.384      | -0.072      | Lipid/ECM
+ABCA4      | 2.090      | 1.188      | Lipid/ECM
+TIMP3      | nan      | nan      | Lipid/ECM
+LIPC       | 1.128      | -0.866      | Lipid/ECM
+BEST1      | 1.485      | 0.053      | RPE_Function
+RPE65      | -2.860      | 2.529      | RPE_Function
+RLBP1      | 0.383      | 0.234      | RPE_Function
+
+Correlation between Disease and Rescue LFC for Risk Genes: -0.583

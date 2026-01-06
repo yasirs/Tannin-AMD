@@ -1,0 +1,52 @@
+# Gemini CLI Agent Progress Log
+
+> [!IMPORTANT]
+> **START HERE:** New agents should read these files in order to understand project context and standards:
+> 1. `project_overview.md` (Biological context)
+> 2. `results/Tannin_AMD_Analysis_Report.md` (Summary of scientific findings)
+> 3. `planning-mds/coding_preferences.md` (Visualization & Coding standards)
+> 4. `planning-mds/GPU_ENVIRONMENT.md` (Hardware/Venv environment)
+> 5. `planning-mds/future-ideas.md` (Roadmap)
+
+**Last Updated:** Tuesday, January 6, 2026
+**Current Status:** Core Analysis & Human Validation Expanded. Pipeline ready for Clinical Translation.
+
+---
+
+## 1. Completed Tasks (Analysis Phase)
+
+| Task | Description | Status | Dataset(s) | Outcome Location |
+| :--- | :--- | :--- | :--- | :--- |
+| **Task 1-6** | **Core Pipeline** | ✅ DONE | Bulk RNA, Replogle 2022 | `results/robustness`, `results/transfer-model` |
+| **Task 7** | **Virtual Screen** | ✅ DONE | K562 GWPS | `results/virtual-screen/` |
+| **Task 8** | **Human Cohorts** | ✅ DONE | GSE135092, GSE29801 | `results/cohort-*` |
+| **Expansion** | **Detailed Viz** | ✅ DONE | GSE135092, GSE129964 | `results/cohort-GSE135092`, `results/external-validation` |
+
+---
+
+## 2. Dataset Mapping & Findings
+
+- **GSE135092 (537 Human Samples)**: Detailed PCA shows strong tissue-specific effects (Macula vs Periphery). Confirmed that PRG4-restored genes (*CFH*, *RPE65*) are those most depleted in human disease.
+- **GSE29801 (293 Human Samples)**: Independent validation using Microarray. Confirmed global downregulation of risk pathways in AMD.
+- **GSE129964 (Serum Starvation Timecourse)**: Demonstrated longitudinal decline of RPE markers, confirming the "atrophic" signature PRG4 opposes.
+- **K562 GWPS (Genome-Wide)**: Identified **KEAP1** and **DICER1** as primary therapeutic mimetics.
+
+---
+
+## 3. Tool & Script Inventory (Newly Created)
+
+- `code/external-validation/fetch_external_data.py`: Multi-dataset GEO downloader and processor.
+- `code/external-validation/process_gse135092_raw.py`: Advanced viz (PCA/Tissue-stratified plots) for RNA-seq cohort.
+- `code/external-validation/visualize_gse29801.py`: Probe-to-gene mapping and validation for microarray cohort.
+- `code/external-validation/visualize_gse129964.py`: Timecourse plotting for atrophy model.
+
+---
+
+## 4. Next Steps: Clinical Translation
+
+1.  **Drug Repurposing**: Query CLUE.io with the PRG4 UP/DOWN gene lists.
+2.  **GWAS Integration**: Overlap Virtual Screen hits with AMD risk loci.
+
+---
+
+*End of Log.*

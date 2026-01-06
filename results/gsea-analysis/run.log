@@ -1,0 +1,14 @@
+Loading data...
+Ranked List Size: 17842
+Gene Set Rescue_UP Size: 2663
+Gene Set Rescue_DOWN Size: 2542
+
+Running GSEA for PRG4_Rescue_UP...
+  Overlap with ranked list: 2663
+  ES: -0.5370
+  P-value: 0.0000
+
+Running GSEA for PRG4_Rescue_DOWN...
+  Overlap with ranked list: 2542
+  ES: 0.5273
+  P-value: 0.0000

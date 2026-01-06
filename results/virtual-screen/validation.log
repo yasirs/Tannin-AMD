@@ -1,0 +1,18 @@
+Loading screen results...
+Enrichment for Top 100 Mimetics (e.g., ['DICER1', 'SHOC2', 'ASXL1'])...
+                                pathway    pvalue      overlap_genes
+35         KEGG_CIRCADIAN_RHYTHM_MAMMAL  0.001862       CSNK1E,CLOCK
+9    KEGG_DRUG_METABOLISM_OTHER_ENZYMES  0.026922        IMPDH2,UMPS
+21  KEGG_UBIQUITIN_MEDIATED_PROTEOLYSIS  0.029700   UBE2M,KEAP1,UBR5
+11                 KEGG_RNA_DEGRADATION  0.035213         XRN2,CNOT4
+2                KEGG_PURINE_METABOLISM  0.045588  GMPR2,IMPDH2,PFAS
+
+Enrichment for Top 100 Antagonists (e.g., ['UPF3B', 'UPF2', 'DENR'])...
+                             pathway  ...                           overlap_genes
+16               KEGG_PROTEIN_EXPORT  ...  HSPA5,SEC61G,SRP72,SEC61A1,SPCS3,SPCS2
+19                   KEGG_CELL_CYCLE  ...                   CCND3,CDK6,MAD2L1,ATR
+21        KEGG_P53_SIGNALING_PATHWAY  ...                          CCND3,CDK6,ATR
+12  KEGG_AMINOACYL_TRNA_BIOSYNTHESIS  ...                              MARS,CARS2
+7         KEGG_N_GLYCAN_BIOSYNTHESIS  ...                               ALG5,ALG2
+
+[5 rows x 3 columns]

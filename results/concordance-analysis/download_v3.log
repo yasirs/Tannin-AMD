@@ -1,0 +1,14 @@
+Parsing Series Matrix...
+Skipping 69 rows.
+Reading data table...
+Header columns (count 537): Index(['GSM3985262', 'GSM3985263', 'GSM3985264', 'GSM3985265', 'GSM3985266'], dtype='object')
+Data shape: (0, 537)
+Metadata samples: 537
+Found 104 AMD and 433 Control samples.
+Subset shape: (0, 537)
+Max value: nan
+Calculating LogFC...
+Saved signature to /home/ysuhail/work/Tannin-AMD/data/external/geo/GSE135092_amd_signature.csv
+Empty DataFrame
+Columns: [gene_symbol, logfc_amd_vs_ctrl]
+Index: []

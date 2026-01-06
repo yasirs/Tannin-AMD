@@ -1,0 +1,5 @@
+Transfer Model (RPE = beta * K562 + alpha)
+Based on Top 500 Concordant Genes
+Slope (Beta): 0.7053
+Intercept: -0.0228
+Correlation (r): 0.4193

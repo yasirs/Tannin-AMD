@@ -1,0 +1,22 @@
+Loading bulk data from /home/ysuhail/work/Tannin-AMD/data/RPE_cells/code/RPE_gene pvals.xlsx...
+Loading metadata from /home/ysuhail/work/Tannin-AMD/data/external/perturbseq/rpe1_normalized_bulk_01.h5ad...
+RPE1_Essential: 8749 measured, 2390 perturbed
+Loading metadata from /home/ysuhail/work/Tannin-AMD/data/external/perturbseq/K562_essential_normalized_bulk_01.h5ad...
+K562_Essential: 8563 measured, 2057 perturbed
+Loading metadata from /home/ysuhail/work/Tannin-AMD/data/external/perturbseq/K562_gwps_normalized_bulk_01.h5ad...
+K562_GWPS: 8248 measured, 9852 perturbed
+
+Analyzing contrast: H2O2_Stress
+  N DEGs (FDR < 0.05): 3943
+
+Analyzing contrast: PRG4_Baseline
+  N DEGs (FDR < 0.05): 2822
+
+Analyzing contrast: PRG4_Rescue
+  N DEGs (FDR < 0.05): 3975
+
+Coverage Summary:
+        Contrast  N_DEGs  Measured_RPE1_Essential  KD_RPE1_Essential  Pct_KD_RPE1_Essential  Measured_K562_Essential  KD_K562_Essential  Pct_KD_K562_Essential  Measured_K562_GWPS  KD_K562_GWPS  Pct_KD_K562_GWPS
+0    H2O2_Stress    3943                     1866                452              11.463353                     1756                383               9.713416                1701          2022         51.280751
+1  PRG4_Baseline    2822                     1812                459              16.265060                     1524                415              14.705882                1493          1723         61.055989
+2    PRG4_Rescue    3975                     2712                664              16.704403                     2365                593              14.918239                2318          2609         65.635220

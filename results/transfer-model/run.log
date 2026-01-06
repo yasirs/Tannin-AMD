@@ -1,0 +1,10 @@
+Loading Concordance Data...
+Loading Perturb-seq Data for 500 training genes...
+  Common Measured Features: 7226
+Extracting profiles...
+Total data points: 3613000
+
+Transfer Model Stats:
+  Slope (Beta): 0.7053
+  Intercept: -0.0228
+  R-squared: 0.1758

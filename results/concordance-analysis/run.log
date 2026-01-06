@@ -1,0 +1,41 @@
+Loading RPE1...
+  Aggregating 2549 perturbations to gene level...
+Loading K562...
+  Aggregating 2176 perturbations to gene level...
+
+Common Targets (KD Genes): 2055
+Common Measured Genes: 7226
+
+Calculating concordance...
+
+Concordance Summary:
+  Mean Correlation: 0.1870
+  Median Correlation: 0.1460
+  Genes with r > 0.5: 119
+  Genes with r > 0.3: 526
+
+Top 10 Concordant KDs:
+     target_ensembl_id  concordance_r  pval
+1890   ENSG00000198952       0.892340   0.0
+935    ENSG00000133858       0.849543   0.0
+74     ENSG00000044574       0.766953   0.0
+1017   ENSG00000137200       0.674028   0.0
+593    ENSG00000113013       0.672568   0.0
+293    ENSG00000099821       0.671770   0.0
+1897   ENSG00000204152       0.662714   0.0
+1867   ENSG00000198258       0.649514   0.0
+1231   ENSG00000151247       0.647987   0.0
+1926   ENSG00000205571       0.647638   0.0
+
+Bottom 10 Concordant KDs:
+     target_ensembl_id  concordance_r          pval
+1099   ENSG00000142657      -0.042752  2.777178e-04
+156    ENSG00000072274      -0.046744  7.037101e-05
+318    ENSG00000100413      -0.050092  2.043741e-05
+626    ENSG00000115091      -0.052830  7.016482e-06
+891    ENSG00000131462      -0.067331  1.010186e-08
+1062   ENSG00000140105      -0.070814  1.679471e-09
+1946   ENSG00000213638      -0.077364  4.544728e-11
+1446   ENSG00000165684      -0.083434  1.215959e-12
+1943   ENSG00000213551      -0.087344  1.024308e-13
+541    ENSG00000110906      -0.167545  1.207556e-46

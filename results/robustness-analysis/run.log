@@ -1,0 +1,88 @@
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+/home/ysuhail/work/Tannin-AMD/code/bridge-analysis/robustness_check.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sub["abs_fc"] = sub[fc_col].abs()
+Loading bulk data from /home/ysuhail/work/Tannin-AMD/data/RPE_cells/code/RPE_gene pvals.xlsx...
+Loading Perturb-seq data from /home/ysuhail/work/Tannin-AMD/data/external/perturbseq/rpe1_normalized_bulk_01.h5ad...
+
+Processing Contrast: H2O2_Stress
+  Threshold: p < 0.05
+  Threshold: p < 0.01
+  Threshold: FDR < 0.1
+  Threshold: FDR < 0.05
+  Threshold: Top 1000
+  Threshold: Top 2000
+  Threshold: Top 3000
+
+Processing Contrast: PRG4_Baseline
+  Threshold: p < 0.05
+  Threshold: p < 0.01
+  Threshold: FDR < 0.1
+  Threshold: FDR < 0.05
+  Threshold: Top 1000
+  Threshold: Top 2000
+  Threshold: Top 3000
+
+Processing Contrast: PRG4_Rescue
+  Threshold: p < 0.05
+  Threshold: p < 0.01
+  Threshold: FDR < 0.1
+  Threshold: FDR < 0.05
+  Threshold: Top 1000
+  Threshold: Top 2000
+  Threshold: Top 3000
+
+Calculating stability metrics...
+
+Analysis Complete.
+Results saved to /home/ysuhail/work/Tannin-AMD/results/robustness-analysis

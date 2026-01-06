@@ -1,0 +1,27 @@
+Loaded 1109 Leading Edge genes.
+Running Pathway Enrichment on Leading Edge...
+                             pathway  ...                                      overlap_genes
+71                   KEGG_CELL_CYCLE  ...  ANAPC1,CCNB1,ATM,ORC1,CCNB2,BUB1,RBL1,CDC25C,P...
+56              KEGG_DNA_REPLICATION  ...  MCM6,POLD3,PRIM2,MCM5,RFC4,RFC3,MCM4,DNA2,POLE...
+61              KEGG_MISMATCH_REPAIR  ...      MSH3,MSH2,POLD3,EXO1,PMS2,RFC4,RFC3,RFC2,LIG1
+72               KEGG_OOCYTE_MEIOSIS  ...  ANAPC1,PTTG1,FBXO5,PPP2R5A,CCNB1,SMC1A,ESPL1,C...
+62     KEGG_HOMOLOGOUS_RECOMBINATION  ...       XRCC2,RAD51,POLD3,RAD52,RAD54L,NBN,BLM,BRCA2
+111     KEGG_CIRCADIAN_RHYTHM_MAMMAL  ...                      NR1D1,NPAS2,PER2,PER3,BHLHE41
+60   KEGG_NUCLEOTIDE_EXCISION_REPAIR  ...   XPC,POLD3,GTF2H2,RFC4,CUL4B,RFC3,POLE2,RFC2,LIG1
+73        KEGG_P53_SIGNALING_PATHWAY  ...  CCNB1,ATM,CHEK2,CDK1,SESN1,CCNB2,GTSE1,RRM2,CC...
+136          KEGG_PATHWAYS_IN_CANCER  ...  MSH2,PLCG2,ARNT2,FOXO1,BMP2,DAPK1,LAMA3,CCNE2,...
+6             KEGG_PURINE_METABOLISM  ...  POLD3,PDE7B,AK5,PPAT,ADCY3,ENPP1,PAICS,ENTPD5,...
+
+[10 rows x 3 columns]
+Loading K562 GWPS to check ['KEAP1', 'DICER1', 'UBR5', 'SHOC2']...
+  Found 1 profiles for KEAP1.
+  Found 1 profiles for DICER1.
+  Found 1 profiles for UBR5.
+  Found 1 profiles for SHOC2.
+
+Do Mimetics induce the Leading Edge genes?
+        Mean_LFC_in_LE  Pct_UP_in_LE       MW_Pval
+KEAP1         0.051945      0.667133  8.019698e-09
+DICER1        0.081042      0.692308  1.165815e-17
+UBR5          0.026196      0.586014  3.204203e-06
+SHOC2         0.023265      0.605594  9.753094e-04

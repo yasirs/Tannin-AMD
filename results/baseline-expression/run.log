@@ -1,0 +1,16 @@
+Loading RPE1 raw data from /home/ysuhail/work/Tannin-AMD/data/external/perturbseq/rpe1_raw_bulk_01.h5ad...
+Loading K562_Ess raw data from /home/ysuhail/work/Tannin-AMD/data/external/perturbseq/K562_essential_raw_bulk_01.h5ad...
+Loading K562_GWPS raw data from /home/ysuhail/work/Tannin-AMD/data/external/perturbseq/K562_gwps_raw_bulk_01.h5ad...
+
+Marker Check:
+  BEST1   : RPE1=nan, K562=nan
+  HBG1    : RPE1=nan, K562=3.6696
+  HBG2    : RPE1=nan, K562=10.0382
+  ACTB    : RPE1=53.1406, K562=23.1683
+  GAPDH   : RPE1=151.6063, K562=27.7218
+  TBP     : RPE1=0.1269, K562=0.1993
+
+      Dataset  Expressed_GT_0.05
+0       RPE1               8749
+1   K562_Ess               8563
+2  K562_GWPS               8248

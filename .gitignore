@@ -1,0 +1,35 @@
+# Data Folder (Raw Data)
+data/
+
+# Standard Data/Binary Formats
+*.h5
+*.h5ad
+*.rds
+*.RData
+*.pkl
+*.npy
+*.fastq
+*.bam
+*.vcf
+*.bed
+*.bw
+*.bigWig
+*.gz
+*.zip
+*.tar
+
+# Python
+__pycache__/
+*.pyc
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+
+# System
+.DS_Store
+Thumbs.db
+
+# Temp
+tmp-scripts/

@@ -1,0 +1,35 @@
+Loading bulk signature...
+  Signature size (FDR < 0.05): 3975 genes
+Loading RPE1 expressed gene list...
+Loading K562 GWPS data from /home/ysuhail/work/Tannin-AMD/data/external/perturbseq/K562_gwps_normalized_bulk_01.h5ad...
+  Genes in signature and measured in K562: 2318
+  Calculating correlations for ~11,000 perturbations...
+  Filtered 10673 -> 7819 perturbations based on RPE1 expression.
+
+Saved full results to /home/ysuhail/work/Tannin-AMD/results/virtual-screen/prg4_virtual_screen_results.csv
+
+Top 10 PRG4 Mimetics (Positive Correlation):
+      gene_symbol  spearman_rho
+2674       DICER1      0.179537
+8939        SHOC2      0.166358
+6793        ASXL1      0.165387
+11145        XPO5      0.163238
+10982      VPS33A      0.154303
+4045       ANKS1A      0.145104
+8492       RPRD1B      0.144640
+10760        UBR5      0.143715
+8468        RPL41      0.143560
+3561        FBXO9      0.143307
+
+Top 10 PRG4 Antagonists (Negative Correlation):
+      gene_symbol  spearman_rho
+4600        HSPA5     -0.201903
+1786        CDIPT     -0.203310
+2633        DHDDS     -0.203517
+5634        MCTS1     -0.203706
+9420        SPCS3     -0.215600
+7943          ATR     -0.216596
+10400       TRA2B     -0.222719
+10822       UPF3B     -0.228529
+10820        UPF2     -0.239901
+2599         DENR     -0.339615

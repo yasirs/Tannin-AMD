@@ -1,0 +1,32 @@
+Loading bulk data...
+
+Running Cell Type Enrichment...
+  Signature: Stress_UP (n=3011)
+     Cell_Type   P_Value    Overlap_Genes
+1  Endothelial  0.141989  CLDN5,ENG,PLVAP
+5       B-Cell  0.387083            CD79A
+0          RPE  0.457754       BEST1,PMEL
+  Signature: Stress_DOWN (n=2559)
+              Cell_Type  P_Value Overlap_Genes
+0                   RPE   0.3725     OTX2,MITF
+1           Endothelial   1.0000              
+2  Macrophage/Microglia   1.0000              
+  Signature: Rescue_UP (n=2870)
+     Cell_Type   P_Value      Overlap_Genes
+0          RPE  0.163169  SERPINF1,TYR,MITF
+6   Melanocyte  0.371694              TYRP1
+1  Endothelial  0.377923        PECAM1,CD34
+  Signature: Rescue_DOWN (n=2699)
+     Cell_Type   P_Value Overlap_Genes
+3   Fibroblast  0.241665  FBLN1,COL1A1
+0          RPE  1.000000              
+1  Endothelial  1.000000              
+
+Target Gene Expression (Bulk):
+      hgnc_symbol  ...  H2O2PRG4_vs_H2O2.pvalue
+4245         CD44  ...                 0.011910
+14782        PRG4  ...                 0.104477
+18756        TLR2  ...                 0.003388
+18758        TLR4  ...                      NaN
+
+[4 rows x 5 columns]
