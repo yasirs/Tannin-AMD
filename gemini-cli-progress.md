@@ -22,6 +22,8 @@
 | **Task 1-6** | **Core Pipeline** | ✅ DONE | Bulk RNA, Replogle 2022 | `results/robustness`, `results/transfer-model` |
 | **Task 7** | **Virtual Screen** | ✅ DONE | K562 GWPS | `results/virtual-screen/` |
 | **Task 8** | **Human Cohorts** | ✅ DONE | GSE135092, GSE29801 | `results/cohort-*` |
+| **Task 9** | **ATAC-seq Atlas** | ✅ DONE | GSE99287 | `results/atac-integration` |
+| **Task 10** | **GWAS Integration**| ✅ DONE | IAMDGC 2016 | `results/gwas-integration` |
 | **Expansion** | **Detailed Viz** | ✅ DONE | GSE135092, GSE129964 | `results/cohort-GSE135092`, `results/external-validation` |
 
 ---
