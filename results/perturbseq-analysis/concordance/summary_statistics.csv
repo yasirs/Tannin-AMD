@@ -1,0 +1,18 @@
+Metric,Value
+Age-UP genes,323
+Age-DOWN genes,161
+ARE genes,242
+AMD-Macula-UP genes,126
+AMD-Macula-DOWN genes,431
+AMD-nonMacula-UP genes,395
+AMD-nonMacula-DOWN genes,508
+Senescence-PRO genes,250
+Senescence-ANTI genes,327
+Redox-PRO genes,245
+Redox-ANTI genes,16
+Inflammation-PRO genes,571
+Inflammation-ANTI genes,111
+RPE1 knockdowns,2679
+K562 GWPS knockdowns,11258
+Convergent genes (≥2 analyses),420
+High-confidence convergent (≥4 analyses),24

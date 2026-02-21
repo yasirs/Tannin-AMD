@@ -1,0 +1,16 @@
+GSE29801 Probe-to-Gene Mapping Improvement Report
+=============================================================
+
+Analysis Date: 2026-01-14
+
+MAPPING RESULTS:
+  Before improvement: 32696 / 45220 probes mapped (72.3%)
+  After improvement:  32780 / 45220 probes mapped (72.5%)
+  Improvement: +84 probes (0.2 percentage points)
+
+ANNOTATION SOURCES USED:
+  Original GPL annotation: 32696 probes with IDs available
+  Entrez Gene IDs: 32696 probes with IDs available
+  RefSeq IDs: 29693 probes with IDs available
+  Ensembl Transcript IDs: 24863 probes with IDs available
+  GenBank Accessions: 38179 probes with IDs available

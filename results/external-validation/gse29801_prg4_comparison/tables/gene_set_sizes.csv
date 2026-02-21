@@ -1,0 +1,11 @@
+"Tissue","GeneSet","NumGenes"
+"Macular","DE (p<0.01)",868
+"Macular","Low Variance",17
+"Macular","High Variance",17
+"Macular","Bimodal",8
+"Macular","Age DE",18
+"Extramacular","DE (p<0.01)",1353
+"Extramacular","Low Variance",47
+"Extramacular","High Variance",146
+"Extramacular","Bimodal",25
+"Extramacular","Age DE",472

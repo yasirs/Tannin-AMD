@@ -1,0 +1,388 @@
+======================================================================
+COMPREHENSIVE PERTURB-SEQ GENE SET ANALYSIS
+======================================================================
+
+[PHASE 1] Loading gene sets...
+Loading gene sets...
+  Loading Age gene sets...
+  Loading ARE gene set...
+  Extracting AMD gene sets (p < 0.01)...
+    Macula: Using columns: pval=P.Value, lfc=logFC, gene=gene_symbol
+    Macula: Found 126 UP, 431 DOWN genes at p < 0.01
+    nonMacula: Using columns: pval=P.Value, lfc=logFC, gene=gene_symbol
+    nonMacula: Found 395 UP, 508 DOWN genes at p < 0.01
+  Loading Axis gene sets...
+
+============================================================
+GENE SET VALIDATION
+============================================================
+  ✓ Age-UP: 323 genes
+  ⚠ Age-DOWN: 161 genes (expected 140-160)
+  ✓ ARE: 242 genes
+  ⚠ AMD-Macula-UP: 126 genes (expected 200-1000)
+  ✓ AMD-Macula-DOWN: 431 genes
+  ⚠ AMD-nonMacula-UP: 395 genes (expected 400-1500)
+  ✓ AMD-nonMacula-DOWN: 508 genes
+  ✓ Senescence-PRO: 250 genes
+  ✓ Senescence-ANTI: 327 genes
+  ✓ Redox-PRO: 245 genes
+  ✓ Redox-ANTI: 16 genes
+  ✓ Inflammation-PRO: 571 genes
+  ✓ Inflammation-ANTI: 111 genes
+============================================================
+
+Prepared 6 gene set pairs for analysis
+
+[PHASE 2] Loading Perturb-seq data...
+Loading cached RPE1 data from /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/cache/RPE1_processed.pkl
+Loading cached K562_GWPS data from /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/cache/K562_GWPS_processed.pkl
+
+[PHASE 2.1] Computing gene set coverage...
+Saved coverage summary: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/gene-sets/coverage_in_perturbseq.csv
+
+[PHASE 3] Running analyses (6 pairs × 2 datasets = 12 analyses)...
+
+============================================================
+Analyzing: Age on RPE1
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: Age
+    UP genes: 141/323 mapped
+    DOWN genes: 80/161 mapped
+    Processing perturbation 0/2679...    Processing perturbation 1000/2679...    Processing perturbation 2000/2679...    Processed 2679 perturbations.      
+    Completed in 14.5 seconds
+
+  Sanity checks for Age:
+    ✓ Mean: -0.0194
+    ✓ Std: 0.1143
+    ✓ Skewness: 0.1141
+    Range: [-0.3890, 0.3105]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/Axes/Inflammation/RPE1/backward/backward_Age_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_Age_distribution.pdf
+    Saved: Fig_Age_distribution.tiff
+    Saved: Fig_Age_top_genes.pdf
+    Saved: Fig_Age_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: Age on K562_GWPS
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: Age
+    UP genes: 118/323 mapped
+    DOWN genes: 75/161 mapped
+    Processing perturbation 0/11258...    Processing perturbation 1000/11258...    Processing perturbation 2000/11258...    Processing perturbation 3000/11258...    Processing perturbation 4000/11258...    Processing perturbation 5000/11258...    Processing perturbation 6000/11258...    Processing perturbation 7000/11258...    Processing perturbation 8000/11258...    Processing perturbation 9000/11258...    Processing perturbation 10000/11258...    Processing perturbation 11000/11258...    Processed 11258 perturbations.      
+    Completed in 57.0 seconds
+
+  Sanity checks for Age:
+    ✓ Mean: -0.0269
+    ✓ Std: 0.1495
+    ✓ Skewness: 0.0887
+    Range: [-0.4613, 0.3794]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/Axes/Inflammation/K562_GWPS/backward/backward_Age_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_Age_distribution.pdf
+    Saved: Fig_Age_distribution.tiff
+    Saved: Fig_Age_top_genes.pdf
+    Saved: Fig_Age_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: AMD-Macula on RPE1
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: AMD-Macula
+    UP genes: 57/126 mapped
+    DOWN genes: 32/431 mapped
+    Processing perturbation 0/2679...    Processing perturbation 1000/2679...    Processing perturbation 2000/2679...    Processed 2679 perturbations.      
+    Completed in 14.5 seconds
+
+  Sanity checks for AMD-Macula:
+    ⚠ Mean mimetic score not near zero: 0.1738
+    ✓ Std: 0.2280
+    ✓ Skewness: -0.7627
+    Range: [-0.5066, 0.6048]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/AMD/RPE1/backward/backward_AMD-Macula_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_AMD-Macula_distribution.pdf
+    Saved: Fig_AMD-Macula_distribution.tiff
+    Saved: Fig_AMD-Macula_top_genes.pdf
+    Saved: Fig_AMD-Macula_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: AMD-Macula on K562_GWPS
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: AMD-Macula
+    UP genes: 43/126 mapped
+    DOWN genes: 33/431 mapped
+    Processing perturbation 0/11258...    Processing perturbation 1000/11258...    Processing perturbation 2000/11258...    Processing perturbation 3000/11258...    Processing perturbation 4000/11258...    Processing perturbation 5000/11258...    Processing perturbation 6000/11258...    Processing perturbation 7000/11258...    Processing perturbation 8000/11258...    Processing perturbation 9000/11258...    Processing perturbation 10000/11258...    Processing perturbation 11000/11258...    Processed 11258 perturbations.      
+    Completed in 57.0 seconds
+
+  Sanity checks for AMD-Macula:
+    ✓ Mean: 0.0207
+    ✓ Std: 0.2203
+    ✓ Skewness: -0.0409
+    Range: [-0.5508, 0.6666]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/AMD/K562_GWPS/backward/backward_AMD-Macula_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_AMD-Macula_distribution.pdf
+    Saved: Fig_AMD-Macula_distribution.tiff
+    Saved: Fig_AMD-Macula_top_genes.pdf
+    Saved: Fig_AMD-Macula_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: AMD-nonMacula on RPE1
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: AMD-nonMacula
+    UP genes: 129/395 mapped
+    DOWN genes: 75/508 mapped
+    Processing perturbation 0/2679...    Processing perturbation 1000/2679...    Processing perturbation 2000/2679...    Processed 2679 perturbations.      
+    Completed in 14.5 seconds
+
+  Sanity checks for AMD-nonMacula:
+    ✓ Mean: 0.0133
+    ✓ Std: 0.1405
+    ✓ Skewness: -0.1243
+    Range: [-0.3884, 0.3638]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/AMD/RPE1/backward/backward_AMD-nonMacula_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_AMD-nonMacula_distribution.pdf
+    Saved: Fig_AMD-nonMacula_distribution.tiff
+    Saved: Fig_AMD-nonMacula_top_genes.pdf
+    Saved: Fig_AMD-nonMacula_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: AMD-nonMacula on K562_GWPS
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: AMD-nonMacula
+    UP genes: 97/395 mapped
+    DOWN genes: 63/508 mapped
+    Processing perturbation 0/11258...    Processing perturbation 1000/11258...    Processing perturbation 2000/11258...    Processing perturbation 3000/11258...    Processing perturbation 4000/11258...    Processing perturbation 5000/11258...    Processing perturbation 6000/11258...    Processing perturbation 7000/11258...    Processing perturbation 8000/11258...    Processing perturbation 9000/11258...    Processing perturbation 10000/11258...    Processing perturbation 11000/11258...    Processed 11258 perturbations.      
+    Completed in 57.6 seconds
+
+  Sanity checks for AMD-nonMacula:
+    ✓ Mean: -0.0012
+    ✓ Std: 0.1517
+    ✓ Skewness: 0.0050
+    Range: [-0.3972, 0.3958]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/AMD/K562_GWPS/backward/backward_AMD-nonMacula_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_AMD-nonMacula_distribution.pdf
+    Saved: Fig_AMD-nonMacula_distribution.tiff
+    Saved: Fig_AMD-nonMacula_top_genes.pdf
+    Saved: Fig_AMD-nonMacula_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: Senescence on RPE1
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: Senescence
+    UP genes: 108/250 mapped
+    DOWN genes: 300/327 mapped
+    Processing perturbation 0/2679...    Processing perturbation 1000/2679...    Processing perturbation 2000/2679...    Processed 2679 perturbations.      
+    Completed in 14.6 seconds
+
+  Sanity checks for Senescence:
+    ⚠ Mean mimetic score not near zero: 0.3500
+    ✓ Std: 0.2950
+    ✓ Skewness: -0.5325
+    Range: [-0.5798, 0.8309]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/Axes/Senescence/RPE1/backward/backward_Senescence_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_Senescence_distribution.pdf
+    Saved: Fig_Senescence_distribution.tiff
+    Saved: Fig_Senescence_top_genes.pdf
+    Saved: Fig_Senescence_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: Senescence on K562_GWPS
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: Senescence
+    UP genes: 79/250 mapped
+    DOWN genes: 303/327 mapped
+    Processing perturbation 0/11258...    Processing perturbation 1000/11258...    Processing perturbation 2000/11258...    Processing perturbation 3000/11258...    Processing perturbation 4000/11258...    Processing perturbation 5000/11258...    Processing perturbation 6000/11258...    Processing perturbation 7000/11258...    Processing perturbation 8000/11258...    Processing perturbation 9000/11258...    Processing perturbation 10000/11258...    Processing perturbation 11000/11258...    Processed 11258 perturbations.      
+    Completed in 57.5 seconds
+
+  Sanity checks for Senescence:
+    ✓ Mean: 0.0385
+    ✓ Std: 0.1473
+    ✓ Skewness: 0.2064
+    Range: [-0.4008, 0.6691]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/Axes/Senescence/K562_GWPS/backward/backward_Senescence_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_Senescence_distribution.pdf
+    Saved: Fig_Senescence_distribution.tiff
+    Saved: Fig_Senescence_top_genes.pdf
+    Saved: Fig_Senescence_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: Redox on RPE1
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: Redox
+    UP genes: 232/245 mapped
+    DOWN genes: 10/16 mapped
+    Processing perturbation 0/2679...    Processing perturbation 1000/2679...    Processing perturbation 2000/2679...    Processed 2679 perturbations.      
+    Completed in 14.5 seconds
+
+  Sanity checks for Redox:
+    ✓ Mean: 0.0074
+    ✓ Std: 0.2813
+    ✓ Skewness: -0.0066
+    Range: [-0.6526, 0.5989]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/Axes/Redox/RPE1/backward/backward_Redox_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_Redox_distribution.pdf
+    Saved: Fig_Redox_distribution.tiff
+    Saved: Fig_Redox_top_genes.pdf
+    Saved: Fig_Redox_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: Redox on K562_GWPS
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: Redox
+    UP genes: 230/245 mapped
+    DOWN genes: 9/16 mapped
+    Processing perturbation 0/11258...    Processing perturbation 1000/11258...    Processing perturbation 2000/11258...    Processing perturbation 3000/11258...    Processing perturbation 4000/11258...    Processing perturbation 5000/11258...    Processing perturbation 6000/11258...    Processing perturbation 7000/11258...    Processing perturbation 8000/11258...    Processing perturbation 9000/11258...    Processing perturbation 10000/11258...    Processing perturbation 11000/11258...    Processed 11258 perturbations.      
+    Completed in 57.5 seconds
+
+  Sanity checks for Redox:
+    ✓ Mean: 0.0057
+    ✓ Std: 0.2824
+    ✓ Skewness: -0.1130
+    Range: [-0.8024, 0.6835]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/Axes/Redox/K562_GWPS/backward/backward_Redox_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_Redox_distribution.pdf
+    Saved: Fig_Redox_distribution.tiff
+    Saved: Fig_Redox_top_genes.pdf
+    Saved: Fig_Redox_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: Inflammation on RPE1
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: Inflammation
+    UP genes: 268/571 mapped
+    DOWN genes: 39/111 mapped
+    Processing perturbation 0/2679...    Processing perturbation 1000/2679...    Processing perturbation 2000/2679...    Processed 2679 perturbations.      
+    Completed in 14.7 seconds
+
+  Sanity checks for Inflammation:
+    ✓ Mean: 0.0135
+    ✓ Std: 0.1221
+    ✓ Skewness: 0.4060
+    Range: [-0.3403, 0.3793]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/Axes/Inflammation/RPE1/backward/backward_Inflammation_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_Inflammation_distribution.pdf
+    Saved: Fig_Inflammation_distribution.tiff
+    Saved: Fig_Inflammation_top_genes.pdf
+    Saved: Fig_Inflammation_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+============================================================
+Analyzing: Inflammation on K562_GWPS
+============================================================
+
+[1] Running backward analysis (all knockdowns)...
+  Backward analysis: Inflammation
+    UP genes: 205/571 mapped
+    DOWN genes: 33/111 mapped
+    Processing perturbation 0/11258...    Processing perturbation 1000/11258...    Processing perturbation 2000/11258...    Processing perturbation 3000/11258...    Processing perturbation 4000/11258...    Processing perturbation 5000/11258...    Processing perturbation 6000/11258...    Processing perturbation 7000/11258...    Processing perturbation 8000/11258...    Processing perturbation 9000/11258...    Processing perturbation 10000/11258...    Processing perturbation 11000/11258...    Processed 11258 perturbations.      
+    Completed in 57.4 seconds
+
+  Sanity checks for Inflammation:
+    ✓ Mean: -0.0049
+    ✓ Std: 0.1697
+    ✓ Skewness: 0.1143
+    Range: [-0.4345, 0.4789]
+    Saved: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis/Axes/Inflammation/K562_GWPS/backward/backward_Inflammation_mimetics.csv
+
+[2] Generating figures...
+    Saved: Fig_Inflammation_distribution.pdf
+    Saved: Fig_Inflammation_distribution.tiff
+    Saved: Fig_Inflammation_top_genes.pdf
+    Saved: Fig_Inflammation_top_genes.tiff
+
+[3] Running forward analysis...
+    Skipping forward analysis - insufficient knockdown data
+
+[PHASE 4] Running convergence analysis...
+Saved: rpe1_vs_k562_concordance.csv
+Saved: cross_geneset_overlaps_RPE1.csv
+Saved: cross_geneset_overlaps_K562_GWPS.csv
+Saved: convergent_genes_all.csv
+Found 399 genes appearing in multiple analyses
+
+======================================================================
+ANALYSIS COMPLETE
+======================================================================
+Total time: 7.5 minutes
+Gene set pairs analyzed: 6
+Datasets: RPE1, K562_GWPS
+Output directory: /home/ysuhail/work/Tannin-AMD/results/perturbseq-analysis
+Traceback (most recent call last):
+  File "/home/ysuhail/work/Tannin-AMD/code/perturbseq-analysis/forward_analysis_complete.py", line 309, in <module>
+    run_all_forward_analyses()
+  File "/home/ysuhail/work/Tannin-AMD/code/perturbseq-analysis/forward_analysis_complete.py", line 228, in run_all_forward_analyses
+    from gene_set_registry import load_all_gene_sets, get_paired_gene_sets
+ImportError: cannot import name 'get_paired_gene_sets' from 'gene_set_registry' (/home/ysuhail/work/Tannin-AMD/code/perturbseq-analysis/gene_set_registry.py)

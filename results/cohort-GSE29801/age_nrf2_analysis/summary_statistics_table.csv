@@ -1,0 +1,13 @@
+Metric,Value
+Age-DE genes (extramacular),472
+Age-UP genes,322
+Age-DOWN genes,150
+PRG4-UP genes (lfc > 0.5),"4,012"
+PRG4-DOWN genes (lfc < -0.5),"2,257"
+ARE/NRF2 genes,242
+Total Perturb-seq knockdowns,"11,258"
+Age-DE with knockdowns,245
+Top 200 Aging Antagonists,199 unique
+Top 200 PRG4 Mimetics,194 unique
+Convergent (Antagonist ∩ PRG4 Mim.),14
+Convergent miRNA genes,"3 (DICER1, DROSHA, XPO5)"

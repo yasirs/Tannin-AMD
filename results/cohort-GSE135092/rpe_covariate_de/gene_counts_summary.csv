@@ -1,0 +1,13 @@
+Tissue,Method,Threshold,Count
+RPE Macula,Mean DE (limma),p < 0.01,781
+RPE Macula,Mean DE (limma),FDR < 0.05,4
+RPE Macula,Variance (Levene),p < 0.01,465
+RPE Macula,Variance (Levene),FDR < 0.05,4
+RPE Macula,Residual Variance,p < 0.01,896
+RPE Macula,Residual Variance,FDR < 0.05,4
+RPE non-Macula,Mean DE (limma),p < 0.01,1173
+RPE non-Macula,Mean DE (limma),FDR < 0.05,32
+RPE non-Macula,Variance (Levene),p < 0.01,867
+RPE non-Macula,Variance (Levene),FDR < 0.05,28
+RPE non-Macula,Residual Variance,p < 0.01,852
+RPE non-Macula,Residual Variance,FDR < 0.05,35

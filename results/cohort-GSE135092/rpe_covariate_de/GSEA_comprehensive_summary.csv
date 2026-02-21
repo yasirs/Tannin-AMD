@@ -1,0 +1,19 @@
+Tissue,Analysis,Hallmark,GO_BP,C2_Full
+RPE Macula,Variance (All),10,116,615
+RPE Macula,Variance (Increased),0,0,NA
+RPE Macula,Variance (Decreased),17,1725,NA
+RPE Macula,DE (Mean),34,846,1843
+RPE Macula,Variance C2 Full,NA,NA,615
+RPE Macula,DE C2 Full,NA,NA,1843
+RPE Macula,Variance GO BP,NA,1725,NA
+RPE Macula,DE GO BP,NA,846,NA
+RPE Macula,DE Hallmark,34,NA,NA
+RPE non-Macula,Variance (All),18,514,807
+RPE non-Macula,Variance (Increased),0,0,NA
+RPE non-Macula,Variance (Decreased),38,1972,NA
+RPE non-Macula,DE (Mean),33,1685,2055
+RPE non-Macula,Variance C2 Full,NA,NA,807
+RPE non-Macula,DE C2 Full,NA,NA,2055
+RPE non-Macula,Variance GO BP,NA,1972,NA
+RPE non-Macula,DE GO BP,NA,1685,NA
+RPE non-Macula,DE Hallmark,33,NA,NA

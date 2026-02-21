@@ -1,0 +1,421 @@
+gene,n_appearances,appears_in
+MCL1,6,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1; AMD-Macula_K562_GWPS; Senescence_K562_GWPS; Inflammation_K562_GWPS
+EPS8L1,5,Age_RPE1; AMD-Macula_RPE1; Senescence_RPE1; Redox_RPE1; Inflammation_RPE1
+TFRC,5,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1; Age_K562_GWPS
+PKM,5,Age_RPE1; AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1; AMD-nonMacula_K562_GWPS
+KRT8,5,AMD-Macula_RPE1; Senescence_RPE1; Redox_RPE1; Inflammation_RPE1; Inflammation_K562_GWPS
+PRKRIP1,4,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1; Redox_RPE1
+SEPSECS,4,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1; Redox_RPE1
+ERVW-1,4,Age_RPE1; AMD-Macula_RPE1; Redox_RPE1; AMD-nonMacula_K562_GWPS
+HNRNPU,4,Age_RPE1; Senescence_RPE1; Inflammation_RPE1; Age_K562_GWPS
+PSMD1,4,Age_RPE1; AMD-nonMacula_RPE1; Redox_RPE1; Redox_K562_GWPS
+CCDC6,4,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1; Redox_K562_GWPS
+PC,4,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1; AMD-nonMacula_K562_GWPS
+NXF1,4,Age_RPE1; AMD-Macula_RPE1; Senescence_RPE1; Redox_RPE1
+PPIL4,4,Age_RPE1; AMD-nonMacula_RPE1; Inflammation_RPE1; AMD-nonMacula_K562_GWPS
+PSMA6,4,Age_RPE1; AMD-nonMacula_RPE1; Redox_RPE1; Redox_K562_GWPS
+PCBP2,4,AMD-nonMacula_RPE1; Senescence_RPE1; Redox_RPE1; Senescence_K562_GWPS
+TM7SF2,4,AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1; AMD-Macula_K562_GWPS
+NAA35,4,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1
+PNISR,4,AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1; Inflammation_K562_GWPS
+MON1A,4,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1
+PDCD6IP,4,Age_RPE1; AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+MRPL46,4,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1
+CCNK,4,Age_RPE1; AMD-Macula_RPE1; Senescence_RPE1; AMD-Macula_K562_GWPS
+CCDC144NL,4,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1; Redox_K562_GWPS
+KRT10,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+USP39,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+CPAMD8,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+ZNF207,3,Senescence_RPE1; Redox_RPE1; Age_K562_GWPS
+MRPL1,3,Age_RPE1; Redox_RPE1; Inflammation_RPE1
+POU5F1B,3,AMD-Macula_RPE1; Inflammation_RPE1; Inflammation_K562_GWPS
+OTOP1,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+PSMB6,3,Age_RPE1; AMD-nonMacula_RPE1; Redox_RPE1
+CT45A5,3,Redox_RPE1; AMD-nonMacula_K562_GWPS; Senescence_K562_GWPS
+PPP1CA,3,AMD-nonMacula_RPE1; Redox_RPE1; Inflammation_RPE1
+EIF3D,3,Age_RPE1; Redox_RPE1; Age_K562_GWPS
+UBE2N,3,AMD-nonMacula_RPE1; AMD-Macula_K562_GWPS; Senescence_K562_GWPS
+MRPL23,3,AMD-Macula_RPE1; Redox_RPE1; Redox_K562_GWPS
+NUS1,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Inflammation_RPE1
+MST1,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+MRPL33,3,AMD-Macula_RPE1; Senescence_RPE1; Redox_K562_GWPS
+DDX19B,3,AMD-Macula_RPE1; Senescence_RPE1; Redox_RPE1
+MFAP1,3,AMD-nonMacula_RPE1; Redox_RPE1; Age_K562_GWPS
+ADAM10,3,Age_RPE1; Senescence_RPE1; Inflammation_RPE1
+RNF14,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+KIN,3,Age_RPE1; AMD-nonMacula_RPE1; Age_K562_GWPS
+USP9X,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Inflammation_RPE1
+S100A1,3,Age_RPE1; Senescence_RPE1; Redox_RPE1
+ARL4D,3,Age_RPE1; Senescence_RPE1; Inflammation_RPE1
+SEH1L,3,Age_RPE1; Redox_K562_GWPS; Inflammation_K562_GWPS
+OTX1,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+TFB2M,3,Senescence_RPE1; Redox_RPE1; Inflammation_RPE1
+THRAP3,3,Senescence_RPE1; Redox_RPE1; Inflammation_RPE1
+BUD13,3,Age_RPE1; AMD-nonMacula_RPE1; Age_K562_GWPS
+PGAM5,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+NAA30,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Inflammation_RPE1
+PDHA1,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; AMD-nonMacula_K562_GWPS
+CDC40,3,Age_RPE1; AMD-nonMacula_K562_GWPS; Inflammation_K562_GWPS
+HIST2H3A,3,Age_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+ZMAT2,3,Age_RPE1; AMD-Macula_RPE1; Redox_RPE1
+CLOCK,3,AMD-Macula_RPE1; Senescence_RPE1; Redox_RPE1
+SNX15,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+PSME1,3,Age_RPE1; AMD-Macula_RPE1; AMD-nonMacula_RPE1
+NEDD8,3,AMD-nonMacula_RPE1; Age_K562_GWPS; Redox_K562_GWPS
+HCFC1,3,Age_RPE1; AMD-nonMacula_RPE1; Redox_RPE1
+RARS,3,Age_RPE1; Redox_RPE1; Age_K562_GWPS
+GYG1,3,AMD-Macula_RPE1; Inflammation_RPE1; AMD-Macula_K562_GWPS
+SAE1,3,Age_RPE1; AMD-nonMacula_RPE1; Age_K562_GWPS
+PHAX,3,Age_RPE1; AMD-nonMacula_RPE1; Age_K562_GWPS
+SF3A1,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Inflammation_RPE1
+ALDOA,3,Age_RPE1; Redox_RPE1; Inflammation_K562_GWPS
+PTEN,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+CACNB3,3,AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1
+DOLK,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+SF3A2,3,Age_RPE1; AMD-nonMacula_RPE1; Redox_RPE1
+SOS1,3,AMD-nonMacula_K562_GWPS; Senescence_K562_GWPS; Inflammation_K562_GWPS
+HIST1H2AE,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+CHMP6,3,AMD-nonMacula_RPE1; Redox_RPE1; Age_K562_GWPS
+DNAJC8,3,AMD-nonMacula_RPE1; Inflammation_RPE1; Age_K562_GWPS
+TNNT2,3,Age_RPE1; AMD-Macula_RPE1; Senescence_RPE1
+POTEI,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Inflammation_RPE1
+ZNF24,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; AMD-nonMacula_K562_GWPS
+MRPS11,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+POLR2L,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Inflammation_RPE1
+HIST1H2BJ,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+IRF2BP2,3,AMD-Macula_RPE1; Senescence_RPE1; Age_K562_GWPS
+SIRT7,3,Age_RPE1; Redox_RPE1; Inflammation_RPE1
+CCAR1,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Inflammation_RPE1
+INTS12,3,AMD-nonMacula_RPE1; Redox_RPE1; Redox_K562_GWPS
+LACTB2,3,AMD-Macula_K562_GWPS; Senescence_K562_GWPS; Redox_K562_GWPS
+GJA3,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+PSMA3,3,Age_RPE1; AMD-nonMacula_RPE1; Redox_RPE1
+SPDYE2,3,AMD-Macula_RPE1; Redox_RPE1; AMD-Macula_K562_GWPS
+MRPL41,3,AMD-Macula_RPE1; Senescence_RPE1; Redox_K562_GWPS
+COPZ1,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+H2AFZ,3,AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1
+PGD,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+DAP3,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+TMEM214,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+UBE2M,3,AMD-Macula_RPE1; Senescence_RPE1; Redox_RPE1
+METTL21A,3,AMD-nonMacula_RPE1; Senescence_RPE1; Age_K562_GWPS
+HIST1H2BN,3,Age_RPE1; Senescence_RPE1; Inflammation_K562_GWPS
+MFN2,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+HLA-C,3,AMD-Macula_RPE1; Inflammation_RPE1; AMD-nonMacula_K562_GWPS
+MRPL16,3,AMD-Macula_RPE1; Redox_RPE1; Redox_K562_GWPS
+UBTF,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+DCUN1D5,3,AMD-nonMacula_RPE1; AMD-nonMacula_K562_GWPS; Redox_K562_GWPS
+GAPDH,3,Age_RPE1; AMD-Macula_RPE1; Senescence_RPE1
+PSMB2,3,Age_RPE1; AMD-nonMacula_RPE1; Redox_RPE1
+SLC35G2,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+TIMM8A,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+PSMA4,3,Age_RPE1; AMD-nonMacula_RPE1; Redox_RPE1
+GPR61,3,Senescence_RPE1; Redox_RPE1; Senescence_K562_GWPS
+FBXO42,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+NDUFS3,3,Senescence_RPE1; Inflammation_RPE1; Inflammation_K562_GWPS
+NARS,3,Age_RPE1; Redox_RPE1; Age_K562_GWPS
+CDC73,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Redox_RPE1
+ELOF1,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; AMD-Macula_K562_GWPS
+SDHD,3,AMD-Macula_RPE1; Senescence_RPE1; Senescence_K562_GWPS
+FDXR,3,AMD-nonMacula_RPE1; Senescence_RPE1; Inflammation_RPE1
+RPE,3,Senescence_RPE1; Redox_RPE1; AMD-Macula_K562_GWPS
+C9ORF78,3,Age_RPE1; AMD-nonMacula_RPE1; Senescence_K562_GWPS
+UQCRC1,3,Inflammation_RPE1; Redox_K562_GWPS; Inflammation_K562_GWPS
+C16ORF86,3,Age_RPE1; AMD-Macula_RPE1; Senescence_RPE1
+ACTR1B,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+ZRSR2,3,AMD-Macula_RPE1; AMD-nonMacula_RPE1; Senescence_RPE1
+GPKOW,3,Age_RPE1; AMD-Macula_RPE1; Redox_RPE1
+DEPDC5,3,AMD-Macula_RPE1; Senescence_RPE1; Inflammation_RPE1
+PRSS50,2,AMD-nonMacula_RPE1; AMD-Macula_K562_GWPS
+RNMT,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+SH3BGR,2,AMD-Macula_K562_GWPS; Inflammation_K562_GWPS
+INO80C,2,AMD-nonMacula_RPE1; Inflammation_K562_GWPS
+MOB3A,2,AMD-nonMacula_K562_GWPS; Inflammation_K562_GWPS
+GEMIN4,2,Age_RPE1; Age_K562_GWPS
+SNIP1,2,AMD-nonMacula_RPE1; Redox_RPE1
+FAM32A,2,AMD-nonMacula_RPE1; Age_K562_GWPS
+SNRPC,2,Age_RPE1; AMD-nonMacula_RPE1
+RASGRP2,2,Senescence_K562_GWPS; Inflammation_K562_GWPS
+SNRNP40,2,Age_RPE1; Redox_RPE1
+RBBP6,2,Age_RPE1; Age_K562_GWPS
+ZSCAN1,2,AMD-Macula_K562_GWPS; Senescence_K562_GWPS
+ATXN7L3,2,AMD-nonMacula_K562_GWPS; Redox_K562_GWPS
+FOXS1,2,Redox_RPE1; AMD-Macula_K562_GWPS
+SS18L2,2,AMD-Macula_RPE1; Redox_RPE1
+SOD1,2,Age_RPE1; AMD-nonMacula_RPE1
+DDN,2,Senescence_RPE1; Inflammation_RPE1
+NPM3,2,Senescence_RPE1; Inflammation_RPE1
+GRB10,2,AMD-Macula_K562_GWPS; AMD-nonMacula_K562_GWPS
+C12ORF60,2,Age_RPE1; AMD-nonMacula_K562_GWPS
+NONO,2,AMD-Macula_K562_GWPS; AMD-nonMacula_K562_GWPS
+MEAF6,2,AMD-Macula_K562_GWPS; Inflammation_K562_GWPS
+NFE4,2,AMD-Macula_K562_GWPS; Senescence_K562_GWPS
+PITX2,2,AMD-Macula_K562_GWPS; AMD-nonMacula_K562_GWPS
+PIAS1,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+PEF1,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+ACTR1A,2,Senescence_RPE1; Inflammation_RPE1
+EIF2B3,2,Age_RPE1; Redox_RPE1
+PEG3,2,AMD-Macula_K562_GWPS; Redox_K562_GWPS
+TWF1,2,AMD-Macula_RPE1; Senescence_RPE1
+USP14,2,AMD-Macula_RPE1; Senescence_RPE1
+IARS,2,Age_K562_GWPS; Redox_K562_GWPS
+CHAF1B,2,Redox_RPE1; Redox_K562_GWPS
+PARS2,2,Senescence_RPE1; Inflammation_RPE1
+SRP68,2,AMD-nonMacula_RPE1; Redox_RPE1
+TKT,2,Inflammation_RPE1; Age_K562_GWPS
+NDUFB4,2,Inflammation_RPE1; Inflammation_K562_GWPS
+LSM6,2,Redox_RPE1; Age_K562_GWPS
+ZFHX3,2,AMD-nonMacula_K562_GWPS; Redox_K562_GWPS
+NPB,2,Senescence_RPE1; Inflammation_RPE1
+MED20,2,AMD-nonMacula_RPE1; Age_K562_GWPS
+GSK3B,2,Senescence_RPE1; Inflammation_RPE1
+HARS,2,Redox_RPE1; Age_K562_GWPS
+GOLGA6L1,2,Age_RPE1; Redox_RPE1
+RGP1,2,Inflammation_RPE1; Redox_K562_GWPS
+MIOS,2,Redox_RPE1; Inflammation_K562_GWPS
+KEAP1,2,Age_RPE1; Redox_RPE1
+ATP5ME,2,AMD-Macula_RPE1; Inflammation_RPE1
+NAE1,2,Senescence_RPE1; Age_K562_GWPS
+PLD3,2,Senescence_K562_GWPS; Redox_K562_GWPS
+PSMC6,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+ZNF407,2,AMD-Macula_RPE1; Senescence_RPE1
+DSN1,2,AMD-nonMacula_RPE1; Age_K562_GWPS
+TREML2,2,AMD-Macula_RPE1; Senescence_RPE1
+DDX28,2,AMD-Macula_K562_GWPS; AMD-nonMacula_K562_GWPS
+C1ORF109,2,AMD-Macula_RPE1; Redox_RPE1
+VPS25,2,Age_RPE1; Redox_RPE1
+PGK1,2,Age_RPE1; Inflammation_K562_GWPS
+ZMYM4,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+NAT10,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+IGBP1,2,Redox_RPE1; Age_K562_GWPS
+ZNF658,2,Senescence_RPE1; Redox_RPE1
+MRPS2,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+CHCHD3,2,Redox_RPE1; AMD-nonMacula_K562_GWPS
+UBE2L3,2,Senescence_RPE1; Senescence_K562_GWPS
+PPA2,2,AMD-Macula_RPE1; Senescence_RPE1
+SLC52A2,2,AMD-nonMacula_K562_GWPS; Redox_K562_GWPS
+SRRM1,2,Age_RPE1; Redox_RPE1
+SCMH1,2,AMD-Macula_K562_GWPS; Inflammation_K562_GWPS
+HMBOX1,2,Age_RPE1; Age_K562_GWPS
+SNAPC4,2,AMD-Macula_RPE1; Senescence_RPE1
+USPL1,2,Inflammation_RPE1; Age_K562_GWPS
+NCBP2,2,Age_RPE1; Age_K562_GWPS
+CRTAP,2,Senescence_K562_GWPS; Redox_K562_GWPS
+CCNC,2,Senescence_RPE1; Age_K562_GWPS
+MEN1,2,Inflammation_RPE1; AMD-Macula_K562_GWPS
+WDR70,2,Age_RPE1; Redox_RPE1
+GEMIN5,2,Age_RPE1; Age_K562_GWPS
+NUP93,2,Age_RPE1; Redox_RPE1
+DGCR8,2,Age_RPE1; Age_K562_GWPS
+HSD17B10,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+CUL3,2,AMD-nonMacula_RPE1; Redox_RPE1
+CCNA2,2,Age_RPE1; Inflammation_K562_GWPS
+BET1,2,Age_RPE1; Age_K562_GWPS
+PRPF19,2,AMD-nonMacula_RPE1; Redox_RPE1
+BTAF1,2,Age_RPE1; Senescence_RPE1
+H3F3A,2,Age_RPE1; Inflammation_RPE1
+FDPS,2,AMD-Macula_RPE1; Senescence_RPE1
+RBM39,2,Age_RPE1; Redox_RPE1
+TTC27,2,Age_RPE1; Age_K562_GWPS
+DNAJA1,2,Age_RPE1; Redox_RPE1
+SATB2,2,Senescence_K562_GWPS; Redox_K562_GWPS
+MYO1H,2,Senescence_RPE1; Redox_RPE1
+EEF2,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+EIF5,2,Redox_RPE1; Inflammation_RPE1
+VPS28,2,AMD-nonMacula_RPE1; Redox_RPE1
+LSM7,2,Age_RPE1; Age_K562_GWPS
+ZDHHC7,2,Inflammation_RPE1; Age_K562_GWPS
+HIST1H2BC,2,AMD-nonMacula_K562_GWPS; Senescence_K562_GWPS
+HSPA8,2,Age_RPE1; AMD-Macula_RPE1
+MBTPS2,2,Redox_RPE1; Age_K562_GWPS
+CSH2,2,AMD-Macula_RPE1; Senescence_RPE1
+HES5,2,AMD-Macula_K562_GWPS; Redox_K562_GWPS
+INTS2,2,Redox_RPE1; Age_K562_GWPS
+MRPL3,2,Senescence_RPE1; Redox_RPE1
+KANSL2,2,Redox_RPE1; Age_K562_GWPS
+DNAJB9,2,AMD-Macula_K562_GWPS; AMD-nonMacula_K562_GWPS
+NDUFB6,2,Inflammation_RPE1; AMD-Macula_K562_GWPS
+ZNF771,2,AMD-Macula_K562_GWPS; Senescence_K562_GWPS
+GPS2,2,AMD-Macula_RPE1; Redox_K562_GWPS
+RANBP2,2,Redox_RPE1; AMD-Macula_K562_GWPS
+CABIN1,2,AMD-Macula_RPE1; Inflammation_RPE1
+ALAD,2,AMD-Macula_K562_GWPS; Inflammation_K562_GWPS
+GLRX5,2,Senescence_RPE1; Inflammation_RPE1
+FXYD5,2,AMD-Macula_K562_GWPS; Redox_K562_GWPS
+INO80D,2,AMD-Macula_RPE1; AMD-nonMacula_K562_GWPS
+IST1,2,Age_RPE1; Redox_RPE1
+FTSJ3,2,Age_RPE1; AMD-nonMacula_RPE1
+UBA2,2,Age_RPE1; Age_K562_GWPS
+TBX18,2,Senescence_K562_GWPS; Inflammation_K562_GWPS
+PSMC1,2,AMD-nonMacula_RPE1; Redox_K562_GWPS
+FYN,2,Age_RPE1; Redox_RPE1
+MEPCE,2,Age_RPE1; Redox_RPE1
+RDH14,2,AMD-Macula_K562_GWPS; Redox_K562_GWPS
+COQ5,2,Senescence_RPE1; Inflammation_RPE1
+DPAGT1,2,AMD-nonMacula_RPE1; Redox_RPE1
+MED12,2,Age_RPE1; Age_K562_GWPS
+CYC1,2,Age_RPE1; Senescence_RPE1
+MCEE,2,Inflammation_RPE1; AMD-Macula_K562_GWPS
+PRODH,2,AMD-Macula_RPE1; Redox_RPE1
+TPT1,2,Age_RPE1; AMD-nonMacula_K562_GWPS
+MEF2A,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+CDC123,2,AMD-nonMacula_RPE1; Redox_K562_GWPS
+TPR,2,Age_RPE1; Redox_RPE1
+MRPS26,2,AMD-Macula_RPE1; Senescence_RPE1
+RSRC2,2,AMD-Macula_RPE1; Inflammation_K562_GWPS
+ZFP69B,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+RPRD1B,2,Age_RPE1; Age_K562_GWPS
+UPF1,2,AMD-Macula_K562_GWPS; Redox_K562_GWPS
+CHMP5,2,Redox_RPE1; Redox_K562_GWPS
+ACTB,2,AMD-nonMacula_RPE1; Senescence_RPE1
+RHOQ,2,AMD-Macula_RPE1; Senescence_RPE1
+PUM1,2,Age_RPE1; Senescence_K562_GWPS
+MRPS18C,2,Senescence_RPE1; Inflammation_RPE1
+SLC39A9,2,AMD-nonMacula_RPE1; Age_K562_GWPS
+MRPL27,2,Senescence_RPE1; Redox_K562_GWPS
+KDM6A,2,Senescence_RPE1; Inflammation_RPE1
+NCOA4,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+U2AF1,2,Age_RPE1; AMD-nonMacula_RPE1
+YEATS4,2,Redox_RPE1; Redox_K562_GWPS
+MIER1,2,Inflammation_RPE1; Age_K562_GWPS
+DPH1,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+GET1,2,AMD-Macula_RPE1; Inflammation_RPE1
+MRPL11,2,Redox_RPE1; Inflammation_RPE1
+MRPS5,2,AMD-Macula_RPE1; Senescence_RPE1
+COPS4,2,AMD-nonMacula_RPE1; Age_K562_GWPS
+IK,2,AMD-nonMacula_RPE1; Redox_RPE1
+TSFM,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+SDE2,2,Age_RPE1; AMD-nonMacula_RPE1
+ZNF497,2,AMD-Macula_K562_GWPS; Senescence_K562_GWPS
+ACOT12,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+SKP1,2,Inflammation_RPE1; Age_K562_GWPS
+NMNAT1,2,Age_K562_GWPS; Senescence_K562_GWPS
+CYP2A13,2,AMD-nonMacula_RPE1; Senescence_RPE1
+HOXC10,2,Senescence_RPE1; Inflammation_RPE1
+TRNT1,2,Age_RPE1; Redox_RPE1
+TAOK3,2,AMD-nonMacula_K562_GWPS; Senescence_K562_GWPS
+INTS14,2,Age_RPE1; AMD-nonMacula_RPE1
+POGLUT3,2,Age_RPE1; AMD-Macula_RPE1
+RAD54L,2,Senescence_K562_GWPS; Redox_K562_GWPS
+NEDD8-MDP1,2,AMD-nonMacula_RPE1; Age_K562_GWPS
+FARSA,2,Redox_RPE1; Age_K562_GWPS
+ESPN,2,Senescence_RPE1; Inflammation_K562_GWPS
+DHX9,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+PPP1R37,2,Age_RPE1; AMD-Macula_RPE1
+TMED2,2,Inflammation_RPE1; AMD-nonMacula_K562_GWPS
+EIF5A,2,Age_RPE1; Age_K562_GWPS
+FBXO5,2,Age_RPE1; Senescence_K562_GWPS
+HMGB1,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+PSMD7,2,AMD-Macula_RPE1; Age_K562_GWPS
+NEMF,2,Senescence_RPE1; Inflammation_RPE1
+SF1,2,Inflammation_RPE1; Inflammation_K562_GWPS
+SNW1,2,Age_RPE1; Senescence_RPE1
+ACIN1,2,Senescence_RPE1; Redox_RPE1
+PPIL1,2,AMD-Macula_RPE1; Inflammation_K562_GWPS
+RBM25,2,Age_RPE1; Age_K562_GWPS
+WNK1,2,AMD-Macula_RPE1; Inflammation_RPE1
+FOXL2,2,Inflammation_RPE1; AMD-Macula_K562_GWPS
+MEX3A,2,Age_K562_GWPS; Redox_K562_GWPS
+DDX54,2,Senescence_RPE1; Inflammation_RPE1
+CDC5L,2,Age_RPE1; Redox_RPE1
+PSMB3,2,AMD-nonMacula_RPE1; Redox_RPE1
+EIF2S1,2,Age_RPE1; Redox_RPE1
+HSPA5,2,AMD-nonMacula_RPE1; Redox_RPE1
+EIF2B4,2,Age_RPE1; Redox_RPE1
+HNRNPA1,2,AMD-Macula_RPE1; Senescence_RPE1
+PEX11B,2,Age_K562_GWPS; AMD-Macula_K562_GWPS
+HEXIM1,2,Age_RPE1; Age_K562_GWPS
+LSM2,2,Redox_RPE1; Age_K562_GWPS
+TBC1D28,2,Senescence_RPE1; Inflammation_RPE1
+MRPL53,2,Redox_RPE1; Redox_K562_GWPS
+CEP85,2,AMD-Macula_RPE1; Inflammation_RPE1
+RPN2,2,AMD-nonMacula_RPE1; Redox_RPE1
+SLC1A5,2,Age_RPE1; Redox_RPE1
+COX7B,2,Senescence_RPE1; Redox_K562_GWPS
+DNAAF3,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+WBP1,2,AMD-nonMacula_RPE1; Senescence_RPE1
+TTC9C,2,AMD-Macula_K562_GWPS; Senescence_K562_GWPS
+SMU1,2,AMD-nonMacula_RPE1; Redox_RPE1
+TVP23C,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+CNOT3,2,Age_K562_GWPS; Redox_K562_GWPS
+ARID3A,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+TSR1,2,Redox_RPE1; Inflammation_RPE1
+TULP1,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+CHD4,2,Inflammation_RPE1; Inflammation_K562_GWPS
+RNF187,2,AMD-Macula_K562_GWPS; Senescence_K562_GWPS
+SHLD2,2,Senescence_K562_GWPS; Redox_K562_GWPS
+MRPL45,2,Senescence_RPE1; Inflammation_RPE1
+INO80E,2,Inflammation_RPE1; Redox_K562_GWPS
+POGZ,2,Age_RPE1; Senescence_RPE1
+BCL2L1,2,AMD-Macula_RPE1; Senescence_RPE1
+CTCF,2,Age_RPE1; Inflammation_K562_GWPS
+PRKAR1B,2,Senescence_K562_GWPS; Inflammation_K562_GWPS
+ARFRP1,2,AMD-Macula_RPE1; Redox_RPE1
+CNOT2,2,Redox_RPE1; Redox_K562_GWPS
+MRPL38,2,AMD-Macula_RPE1; Inflammation_RPE1
+ZNF718,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+INTS8,2,Redox_RPE1; Redox_K562_GWPS
+EIF3G,2,Age_RPE1; Inflammation_K562_GWPS
+PRPF31,2,Age_RPE1; Redox_RPE1
+CKAP5,2,Senescence_RPE1; Inflammation_RPE1
+WDR83OS,2,Inflammation_RPE1; Age_K562_GWPS
+KLC2,2,Senescence_RPE1; Inflammation_RPE1
+CBFA2T3,2,AMD-Macula_RPE1; Senescence_RPE1
+PLRG1,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+PRKRA,2,AMD-Macula_RPE1; Redox_RPE1
+FBXO4,2,AMD-nonMacula_K562_GWPS; Senescence_K562_GWPS
+INTS9,2,AMD-nonMacula_RPE1; Age_K562_GWPS
+PPARGC1B,2,Inflammation_RPE1; Redox_K562_GWPS
+MRPL9,2,AMD-Macula_RPE1; Senescence_RPE1
+FBLIM1,2,Senescence_RPE1; Inflammation_RPE1
+SRP19,2,AMD-nonMacula_RPE1; Redox_RPE1
+CDK6,2,AMD-Macula_RPE1; Senescence_RPE1
+MTHFD1,2,Age_RPE1; Inflammation_K562_GWPS
+INTS5,2,Redox_RPE1; Redox_K562_GWPS
+INTS3,2,Age_RPE1; Age_K562_GWPS
+E2F6,2,AMD-Macula_RPE1; Senescence_RPE1
+DDX23,2,AMD-Macula_RPE1; Redox_RPE1
+COQ2,2,Senescence_RPE1; Inflammation_RPE1
+WDR74,2,Senescence_RPE1; AMD-nonMacula_K562_GWPS
+FGFR1OP,2,AMD-Macula_RPE1; Age_K562_GWPS
+VPS41,2,Inflammation_RPE1; Age_K562_GWPS
+INTS10,2,AMD-Macula_RPE1; Senescence_RPE1
+PPP2R2A,2,AMD-Macula_K562_GWPS; Redox_K562_GWPS
+THOC6,2,Senescence_RPE1; Redox_RPE1
+ZNF230,2,Redox_K562_GWPS; Inflammation_K562_GWPS
+SLC9B1,2,Senescence_RPE1; Inflammation_RPE1
+PSMB5,2,AMD-nonMacula_RPE1; Redox_RPE1
+NUF2,2,AMD-nonMacula_RPE1; Age_K562_GWPS
+CLK2,2,AMD-Macula_RPE1; Inflammation_RPE1
+OR7A17,2,AMD-Macula_RPE1; Senescence_K562_GWPS
+ZNF629,2,AMD-Macula_K562_GWPS; Inflammation_K562_GWPS
+PDCD6,2,AMD-Macula_RPE1; Redox_RPE1
+HIST2H2BF,2,Redox_RPE1; AMD-Macula_K562_GWPS
+PSMC5,2,AMD-nonMacula_RPE1; Redox_RPE1
+WBP11,2,AMD-nonMacula_RPE1; Redox_RPE1
+TIMM50,2,Senescence_K562_GWPS; Inflammation_K562_GWPS
+UBAP2L,2,AMD-Macula_K562_GWPS; AMD-nonMacula_K562_GWPS
+MTBP,2,AMD-nonMacula_K562_GWPS; Inflammation_K562_GWPS
+RPL5,2,AMD-nonMacula_K562_GWPS; Inflammation_K562_GWPS
+CD8B,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+HAUS7,2,AMD-Macula_RPE1; Senescence_RPE1
+ACTR6,2,Redox_RPE1; Age_K562_GWPS
+HIST2H3D,2,Redox_RPE1; AMD-Macula_K562_GWPS
+NSRP1,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+NDUFS5,2,Inflammation_RPE1; Inflammation_K562_GWPS
+PSMD12,2,Age_RPE1; Redox_K562_GWPS
+PSMC2,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+PHF20L1,2,Senescence_K562_GWPS; Inflammation_K562_GWPS
+PRPF8,2,Redox_RPE1; Age_K562_GWPS
+DHX29,2,Age_RPE1; Inflammation_RPE1
+LCE1C,2,AMD-Macula_RPE1; AMD-Macula_K562_GWPS
+COMTD1,2,AMD-Macula_RPE1; Senescence_RPE1
+NOSIP,2,AMD-Macula_K562_GWPS; Redox_K562_GWPS
+PSME2,2,AMD-Macula_RPE1; Inflammation_K562_GWPS
+UBR4,2,Age_RPE1; Senescence_K562_GWPS
+PPY,2,AMD-nonMacula_RPE1; Inflammation_RPE1
+PHKG1,2,AMD-Macula_K562_GWPS; AMD-nonMacula_K562_GWPS
+KLHL11,2,Senescence_RPE1; Inflammation_RPE1
+SUPT20H,2,Inflammation_RPE1; Age_K562_GWPS
+MRPL28,2,AMD-Macula_RPE1; AMD-nonMacula_RPE1
+SUPT16H,2,AMD-nonMacula_RPE1; Age_K562_GWPS

@@ -1,5 +1,5 @@
 # Data Folder (Raw Data)
-data/
+data/RPE_cells
 
 # Standard Data/Binary Formats
 *.h5

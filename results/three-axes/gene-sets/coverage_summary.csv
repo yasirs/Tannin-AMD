@@ -1,0 +1,8 @@
+GeneSet,Total_Input,Mapped_to_Ensembl,In_Bulk_RNA,In_Perturb_RPE1,In_Perturb_K562_Ess,In_Perturb_K562_GWPS
+inflammatory_anti_disease,111,110,110,40,34,34
+inflammatory_pro_disease,571,570,570,267,210,204
+known_amd_genes,20,19,19,5,4,3
+oxidative_anti_disease,16,15,15,9,8,8
+oxidative_pro_disease,245,244,244,231,230,229
+senescence_anti_disease,327,326,326,303,307,307
+senescence_pro_disease,250,248,248,116,99,96

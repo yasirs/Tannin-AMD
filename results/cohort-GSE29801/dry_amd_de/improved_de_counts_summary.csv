@@ -1,0 +1,10 @@
+"comparison","tissue","fdr_0.05","fdr_0.10","p_0.01"
+"Combined Early","Macular",0,0,198
+"Combined Early","Extramacular",0,0,215
+"Combined Intermediate","Macular",1,2,147
+"Combined Intermediate","Extramacular",0,0,284
+"All Dry AMD","Macular",0,0,120
+"All Dry AMD","Extramacular",1,1,172
+"Combined Early","Meta-analysis",0,0,115
+"Combined Intermediate","Meta-analysis",2,2,85
+"All Dry AMD","Meta-analysis",0,0,63

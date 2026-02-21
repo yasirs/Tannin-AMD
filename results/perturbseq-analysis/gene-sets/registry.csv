@@ -1,0 +1,14 @@
+name,category,direction,description,size
+Age-UP,Age,UP,Upregulated with age (GSE29801),323
+Age-DOWN,Age,DOWN,Downregulated with age (GSE29801),161
+ARE,Age,mixed,NRF2/ARE targets (MSigDB + literature),242
+AMD-Macula-UP,AMD,UP,Upregulated in AMD RPE Macula (p<0.01),126
+AMD-Macula-DOWN,AMD,DOWN,Downregulated in AMD RPE Macula (p<0.01),431
+AMD-nonMacula-UP,AMD,UP,Upregulated in AMD RPE non-Macula (p<0.01),395
+AMD-nonMacula-DOWN,AMD,DOWN,Downregulated in AMD RPE non-Macula (p<0.01),508
+Senescence-PRO,Senescence,PRO,Pro-senescence (SenMayo + GO + SASP),250
+Senescence-ANTI,Senescence,ANTI,Anti-senescence (Cell cycle + E2F),327
+Redox-PRO,Redox,PRO,Pro-oxidative stress (HALLMARK + GO),245
+Redox-ANTI,Redox,ANTI,Antioxidant response (NRF2 targets),16
+Inflammation-PRO,Inflammation,PRO,Pro-inflammatory (HALLMARK + NFkB),571
+Inflammation-ANTI,Inflammation,ANTI,Anti-inflammatory (GO regulatory),111

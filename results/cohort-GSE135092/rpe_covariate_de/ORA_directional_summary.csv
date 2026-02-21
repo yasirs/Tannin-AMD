@@ -1,0 +1,5 @@
+Tissue,Direction,Gene_Count,Hallmark_FDR025,GOBP_FDR025,C2_FDR025
+RPE Macula,Increased,395,1,1,0
+RPE Macula,Decreased,70,8,471,558
+RPE non-Macula,Increased,781,0,0,1
+RPE non-Macula,Decreased,86,1,353,300
